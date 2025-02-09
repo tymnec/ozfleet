@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.micrOZoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)micrOZoft.extensions.apidescription.server/6.0.5/build/MicrOZoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)micrOZoft.extensions.apidescription.server/6.0.5/build/MicrOZoft.Extensions.ApiDescription.Server.targets')" />
+  </ImportGroup>
+</Project>

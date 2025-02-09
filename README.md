@@ -3,15 +3,15 @@ Ozfleet Management Software: Empowering Your Fleet's Success
 
 
 Structure of ozfleet.
-OSFleet
+OZFleet
 │
-├── OSFleet.sln
-├── OSFleet.Core
-│   └── OSFleet.Core.csproj
-├── OSFleet.Application
-│   └── OSFleet.Application.csproj
-├── OSFleet.Infrastructure
-│   └── OSFleet.Infrastructure.csproj
-└── OSFleet.WebApi
-    └── OSFleet.WebApi.csproj
+├── OZFleet.sln
+├── OZFleet.Core
+│   └── OZFleet.Core.csproj
+├── OZFleet.Application
+│   └── OZFleet.Application.csproj
+├── OZFleet.Infrastructure
+│   └── OZFleet.Infrastructure.csproj
+└── OZFleet.WebApi
+    └── OZFleet.WebApi.csproj
 
