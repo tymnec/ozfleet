@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OZFleet.Application\OZFleet.Application.csproj" />
+    <ProjectReference Include="..\OZFleet.Infrastructure\OZFleet.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

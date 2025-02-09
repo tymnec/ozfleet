@@ -114,6 +114,63 @@
         }
       }
     },
+    "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/OZFleet.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/OZFleet.Infrastructure.csproj",
+        "projectName": "OZFleet.Infrastructure",
+        "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/OZFleet.Infrastructure.csproj",
+        "packagesPath": "/home/nikhil/.nuget/packages/",
+        "outputPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikhil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/OZFleet.Core.csproj": {
+                "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/OZFleet.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -138,6 +195,9 @@
             "projectReferences": {
               "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj": {
                 "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj"
+              },
+              "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/OZFleet.Infrastructure.csproj": {
+                "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/OZFleet.Infrastructure.csproj"
               }
             }
           }

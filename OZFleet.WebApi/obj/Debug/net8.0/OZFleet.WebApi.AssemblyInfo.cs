@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OZFleet.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6a8b0bc778e8af28bb5a2ff086694806b251863")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82236fe0ac411278d8794f6d11e3914f5c883bba")]
 [assembly: System.Reflection.AssemblyProductAttribute("OZFleet.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OZFleet.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

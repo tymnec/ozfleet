@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "8.0.12",
           "OZFleet.Application": "1.0.0",
+          "OZFleet.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -86,6 +87,14 @@
         "runtime": {
           "OZFleet.Core.dll": {}
         }
+      },
+      "OZFleet.Infrastructure/1.0.0": {
+        "dependencies": {
+          "OZFleet.Core": "1.0.0"
+        },
+        "runtime": {
+          "OZFleet.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -150,6 +159,11 @@
       "sha512": ""
     },
     "OZFleet.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OZFleet.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

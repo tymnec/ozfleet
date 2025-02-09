@@ -36,3 +36,5 @@
 /home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/obj/Debug/net8.0/OZFleet.WebApi.pdb
 /home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/obj/Debug/net8.0/OZFleet.WebApi.genruntimeconfig.cache
 /home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/obj/Debug/net8.0/ref/OZFleet.WebApi.dll
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/bin/Debug/net8.0/OZFleet.Infrastructure.dll
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/bin/Debug/net8.0/OZFleet.Infrastructure.pdb

@@ -130,6 +130,19 @@
         "runtime": {
           "bin/placeholder/OZFleet.Core.dll": {}
         }
+      },
+      "OZFleet.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OZFleet.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OZFleet.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OZFleet.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -506,12 +519,18 @@
       "type": "project",
       "path": "../OZFleet.Core/OZFleet.Core.csproj",
       "msbuildProject": "../OZFleet.Core/OZFleet.Core.csproj"
+    },
+    "OZFleet.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../OZFleet.Infrastructure/OZFleet.Infrastructure.csproj",
+      "msbuildProject": "../OZFleet.Infrastructure/OZFleet.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.12",
       "OZFleet.Application >= 1.0.0",
+      "OZFleet.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -542,6 +561,9 @@
           "projectReferences": {
             "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj": {
               "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj"
+            },
+            "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/OZFleet.Infrastructure.csproj": {
+              "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Infrastructure/OZFleet.Infrastructure.csproj"
             }
           }
         }
