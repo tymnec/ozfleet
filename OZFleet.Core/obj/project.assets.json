@@ -19,8 +19,12 @@
       "packagesPath": "/home/nikhil/.nuget/packages/",
       "outputPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/",
       "projectStyle": "PackageReference",
-      "configFilePaths": ["/home/nikhil/.nuget/NuGet/NuGet.Config"],
-      "originalTargetFrameworks": ["net8.0"],
+      "configFilePaths": [
+        "/home/nikhil/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -31,7 +35,9 @@
         }
       },
       "warningProperties": {
-        "warnAsError": ["NU1605"]
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
@@ -49,7 +55,7 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "MicrOZoft.NETCore.App": {
+          "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },

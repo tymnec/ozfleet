@@ -1,0 +1,12 @@
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/OZFleet.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/OZFleet.Core.AssemblyInfoInputs.cache
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/OZFleet.Core.AssemblyInfo.cs
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/OZFleet.Core.csproj.CoreCompileInputs.cache
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/OZFleet.Core.sourcelink.json
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/bin/Debug/net8.0/OZFleet.Core.deps.json
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/bin/Debug/net8.0/OZFleet.Core.dll
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/bin/Debug/net8.0/OZFleet.Core.pdb
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/OZFleet.Core.dll
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/refint/OZFleet.Core.dll
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/OZFleet.Core.pdb
+/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/Debug/net8.0/ref/OZFleet.Core.dll

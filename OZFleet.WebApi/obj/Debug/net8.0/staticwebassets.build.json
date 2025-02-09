@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "V3wVAO0Et0qMVBjujLYoEkGVH7WVylL7vF7VREyOl3M=",
+  "Source": "OZFleet.WebApi",
+  "BasePath": "_content/OZFleet.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -4,17 +4,78 @@
     "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj": {}
   },
   "projects": {
-    "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj": {
+    "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj",
-        "projectName": "OZFleet.WebApi",
-        "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj",
+        "projectUniqueName": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj",
+        "projectName": "OZFleet.Application",
+        "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj",
         "packagesPath": "/home/nikhil/.nuget/packages/",
-        "outputPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/obj/",
+        "outputPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/obj/",
         "projectStyle": "PackageReference",
-        "configFilePaths": ["/home/nikhil/.nuget/NuGet/NuGet.Config"],
-        "originalTargetFrameworks": ["net8.0"],
+        "configFilePaths": [
+          "/home/nikhil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/OZFleet.Core.csproj": {
+                "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/OZFleet.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/OZFleet.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/OZFleet.Core.csproj",
+        "projectName": "OZFleet.Core",
+        "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/OZFleet.Core.csproj",
+        "packagesPath": "/home/nikhil/.nuget/packages/",
+        "outputPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikhil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -25,14 +86,73 @@
           }
         },
         "warningProperties": {
-          "warnAsError": ["NU1605"]
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj",
+        "projectName": "OZFleet.WebApi",
+        "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj",
+        "packagesPath": "/home/nikhil/.nuget/packages/",
+        "outputPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikhil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj": {
+                "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MicrOZoft.AspNetCore.OpenApi": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.12, )"
             },
@@ -53,10 +173,10 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "MicrOZoft.AspNetCore.App": {
+            "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "MicrOZoft.NETCore.App": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },

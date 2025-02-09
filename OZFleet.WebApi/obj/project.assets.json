@@ -2,43 +2,45 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "MicrOZoft.AspNetCore.OpenApi/8.0.12": {
+      "Microsoft.AspNetCore.OpenApi/8.0.12": {
         "type": "package",
         "dependencies": {
-          "MicrOZoft.OpenApi": "1.4.3"
+          "Microsoft.OpenApi": "1.4.3"
         },
         "compile": {
-          "lib/net8.0/MicrOZoft.AspNetCore.OpenApi.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/MicrOZoft.AspNetCore.OpenApi.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
             "related": ".xml"
           }
         },
-        "frameworkReferences": ["MicrOZoft.AspNetCore.App"]
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
-      "MicrOZoft.Extensions.ApiDescription.Server/6.0.5": {
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
-          "build/MicrOZoft.Extensions.ApiDescription.Server.props": {},
-          "build/MicrOZoft.Extensions.ApiDescription.Server.targets": {}
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/MicrOZoft.Extensions.ApiDescription.Server.props": {},
-          "buildMultiTargeting/MicrOZoft.Extensions.ApiDescription.Server.targets": {}
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
-      "MicrOZoft.OpenApi/1.6.14": {
+      "Microsoft.OpenApi/1.6.14": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MicrOZoft.OpenApi.dll": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/MicrOZoft.OpenApi.dll": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -46,7 +48,7 @@
       "Swashbuckle.AspNetCore/6.6.2": {
         "type": "package",
         "dependencies": {
-          "MicrOZoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
           "Swashbuckle.AspNetCore.Swagger": "6.6.2",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.6.2",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.6.2"
@@ -58,7 +60,7 @@
       "Swashbuckle.AspNetCore.Swagger/6.6.2": {
         "type": "package",
         "dependencies": {
-          "MicrOZoft.OpenApi": "1.6.14"
+          "Microsoft.OpenApi": "1.6.14"
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
@@ -70,7 +72,9 @@
             "related": ".pdb;.xml"
           }
         },
-        "frameworkReferences": ["MicrOZoft.AspNetCore.App"]
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Swashbuckle.AspNetCore.SwaggerGen/6.6.2": {
         "type": "package",
@@ -100,48 +104,73 @@
             "related": ".pdb;.xml"
           }
         },
-        "frameworkReferences": ["MicrOZoft.AspNetCore.App"]
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OZFleet.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OZFleet.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OZFleet.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OZFleet.Application.dll": {}
+        }
+      },
+      "OZFleet.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OZFleet.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OZFleet.Core.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "MicrOZoft.AspNetCore.OpenApi/8.0.12": {
+    "Microsoft.AspNetCore.OpenApi/8.0.12": {
       "sha512": "ethhl6H45KrU7d8FRFBKAaJpMKdy2nJwG7j3XSt1b4o+H6saDr+2NQpEMIB1QTHxsrB2Un4C+j01PT5b75kOYQ==",
       "type": "package",
-      "path": "micrOZoft.aspnetcore.openapi/8.0.12",
+      "path": "microsoft.aspnetcore.openapi/8.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net8.0/MicrOZoft.AspNetCore.OpenApi.dll",
-        "lib/net8.0/MicrOZoft.AspNetCore.OpenApi.xml",
-        "micrOZoft.aspnetcore.openapi.8.0.12.nupkg.sha512",
-        "micrOZoft.aspnetcore.openapi.nuspec"
+        "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net8.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.8.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-    "MicrOZoft.Extensions.ApiDescription.Server/6.0.5": {
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
-      "path": "micrOZoft.extensions.apidescription.server/6.0.5",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "build/MicrOZoft.Extensions.ApiDescription.Server.props",
-        "build/MicrOZoft.Extensions.ApiDescription.Server.targets",
-        "buildMultiTargeting/MicrOZoft.Extensions.ApiDescription.Server.props",
-        "buildMultiTargeting/MicrOZoft.Extensions.ApiDescription.Server.targets",
-        "micrOZoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-        "micrOZoft.extensions.apidescription.server.nuspec",
+        "build/Microsoft.Extensions.ApiDescription.Server.props",
+        "build/Microsoft.Extensions.ApiDescription.Server.targets",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
+        "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+        "microsoft.extensions.apidescription.server.nuspec",
         "tools/Newtonsoft.Json.dll",
         "tools/dotnet-getdocument.deps.json",
         "tools/dotnet-getdocument.dll",
         "tools/dotnet-getdocument.runtimeconfig.json",
         "tools/net461-x86/GetDocument.Insider.exe",
         "tools/net461-x86/GetDocument.Insider.exe.config",
-        "tools/net461-x86/MicrOZoft.Win32.Primitives.dll",
+        "tools/net461-x86/Microsoft.Win32.Primitives.dll",
         "tools/net461-x86/System.AppContext.dll",
         "tools/net461-x86/System.Buffers.dll",
         "tools/net461-x86/System.Collections.Concurrent.dll",
@@ -154,16 +183,16 @@
         "tools/net461-x86/System.ComponentModel.dll",
         "tools/net461-x86/System.Console.dll",
         "tools/net461-x86/System.Data.Common.dll",
-        "tools/net461-x86/System.DiagnOZtics.Contracts.dll",
-        "tools/net461-x86/System.DiagnOZtics.Debug.dll",
-        "tools/net461-x86/System.DiagnOZtics.DiagnOZticSource.dll",
-        "tools/net461-x86/System.DiagnOZtics.FileVersionInfo.dll",
-        "tools/net461-x86/System.DiagnOZtics.Process.dll",
-        "tools/net461-x86/System.DiagnOZtics.StackTrace.dll",
-        "tools/net461-x86/System.DiagnOZtics.TextWriterTraceListener.dll",
-        "tools/net461-x86/System.DiagnOZtics.Tools.dll",
-        "tools/net461-x86/System.DiagnOZtics.TraceSource.dll",
-        "tools/net461-x86/System.DiagnOZtics.Tracing.dll",
+        "tools/net461-x86/System.Diagnostics.Contracts.dll",
+        "tools/net461-x86/System.Diagnostics.Debug.dll",
+        "tools/net461-x86/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461-x86/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461-x86/System.Diagnostics.Process.dll",
+        "tools/net461-x86/System.Diagnostics.StackTrace.dll",
+        "tools/net461-x86/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461-x86/System.Diagnostics.Tools.dll",
+        "tools/net461-x86/System.Diagnostics.TraceSource.dll",
+        "tools/net461-x86/System.Diagnostics.Tracing.dll",
         "tools/net461-x86/System.Drawing.Primitives.dll",
         "tools/net461-x86/System.Dynamic.Runtime.dll",
         "tools/net461-x86/System.Globalization.Calendars.dll",
@@ -244,7 +273,7 @@
         "tools/net461-x86/netstandard.dll",
         "tools/net461/GetDocument.Insider.exe",
         "tools/net461/GetDocument.Insider.exe.config",
-        "tools/net461/MicrOZoft.Win32.Primitives.dll",
+        "tools/net461/Microsoft.Win32.Primitives.dll",
         "tools/net461/System.AppContext.dll",
         "tools/net461/System.Buffers.dll",
         "tools/net461/System.Collections.Concurrent.dll",
@@ -257,16 +286,16 @@
         "tools/net461/System.ComponentModel.dll",
         "tools/net461/System.Console.dll",
         "tools/net461/System.Data.Common.dll",
-        "tools/net461/System.DiagnOZtics.Contracts.dll",
-        "tools/net461/System.DiagnOZtics.Debug.dll",
-        "tools/net461/System.DiagnOZtics.DiagnOZticSource.dll",
-        "tools/net461/System.DiagnOZtics.FileVersionInfo.dll",
-        "tools/net461/System.DiagnOZtics.Process.dll",
-        "tools/net461/System.DiagnOZtics.StackTrace.dll",
-        "tools/net461/System.DiagnOZtics.TextWriterTraceListener.dll",
-        "tools/net461/System.DiagnOZtics.Tools.dll",
-        "tools/net461/System.DiagnOZtics.TraceSource.dll",
-        "tools/net461/System.DiagnOZtics.Tracing.dll",
+        "tools/net461/System.Diagnostics.Contracts.dll",
+        "tools/net461/System.Diagnostics.Debug.dll",
+        "tools/net461/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461/System.Diagnostics.Process.dll",
+        "tools/net461/System.Diagnostics.StackTrace.dll",
+        "tools/net461/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461/System.Diagnostics.Tools.dll",
+        "tools/net461/System.Diagnostics.TraceSource.dll",
+        "tools/net461/System.Diagnostics.Tracing.dll",
         "tools/net461/System.Drawing.Primitives.dll",
         "tools/net461/System.Dynamic.Runtime.dll",
         "tools/net461/System.Globalization.Calendars.dll",
@@ -348,22 +377,22 @@
         "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
         "tools/netcoreapp2.1/GetDocument.Insider.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json",
-        "tools/netcoreapp2.1/System.DiagnOZtics.DiagnOZticSource.dll"
+        "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
-    "MicrOZoft.OpenApi/1.6.14": {
+    "Microsoft.OpenApi/1.6.14": {
       "sha512": "tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
       "type": "package",
-      "path": "micrOZoft.openapi/1.6.14",
+      "path": "microsoft.openapi/1.6.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "lib/netstandard2.0/MicrOZoft.OpenApi.dll",
-        "lib/netstandard2.0/MicrOZoft.OpenApi.pdb",
-        "lib/netstandard2.0/MicrOZoft.OpenApi.xml",
-        "micrOZoft.openapi.1.6.14.nupkg.sha512",
-        "micrOZoft.openapi.nuspec"
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.14.nupkg.sha512",
+        "microsoft.openapi.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.6.2": {
@@ -409,7 +438,7 @@
       ]
     },
     "Swashbuckle.AspNetCore.SwaggerGen/6.6.2": {
-      "sha512": "zv4ikn4AT1VYuOZDCpktLq4QDq08e7Utzbir86M5/ZkRaLXbCPF11E1/vTmOiDzRTl0zTZINQU2qLKwTcHgfrA==",
+      "sha512": "zv4ikn4AT1VYuOsDCpktLq4QDq08e7Utzbir86M5/ZkRaLXbCPF11E1/vTmOiDzRTl0zTZINQU2qLKwTcHgfrA==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggergen/6.6.2",
       "files": [
@@ -467,11 +496,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "OZFleet.Application/1.0.0": {
+      "type": "project",
+      "path": "../OZFleet.Application/OZFleet.Application.csproj",
+      "msbuildProject": "../OZFleet.Application/OZFleet.Application.csproj"
+    },
+    "OZFleet.Core/1.0.0": {
+      "type": "project",
+      "path": "../OZFleet.Core/OZFleet.Core.csproj",
+      "msbuildProject": "../OZFleet.Core/OZFleet.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "MicrOZoft.AspNetCore.OpenApi >= 8.0.12",
+      "Microsoft.AspNetCore.OpenApi >= 8.0.12",
+      "OZFleet.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -487,26 +527,36 @@
       "packagesPath": "/home/nikhil/.nuget/packages/",
       "outputPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/obj/",
       "projectStyle": "PackageReference",
-      "configFilePaths": ["/home/nikhil/.nuget/NuGet/NuGet.Config"],
-      "originalTargetFrameworks": ["net8.0"],
+      "configFilePaths": [
+        "/home/nikhil/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj": {
+              "projectPath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.Application/OZFleet.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
-        "warnAsError": ["NU1605"]
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "MicrOZoft.AspNetCore.OpenApi": {
+          "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.12, )"
           },
@@ -527,10 +577,10 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "MicrOZoft.AspNetCore.App": {
+          "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
           },
-          "MicrOZoft.NETCore.App": {
+          "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },

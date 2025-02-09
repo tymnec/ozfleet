@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OZFleet.Application/1.0.0": {
+        "dependencies": {
+          "OZFleet.Core": "1.0.0"
+        },
+        "runtime": {
+          "OZFleet.Application.dll": {}
+        }
+      },
+      "OZFleet.Core/1.0.0": {
+        "runtime": {
+          "OZFleet.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OZFleet.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OZFleet.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

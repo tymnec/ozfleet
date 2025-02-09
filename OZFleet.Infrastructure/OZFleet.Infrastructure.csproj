@@ -1,4 +1,4 @@
-﻿<Project Sdk="MicrOZoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\OZFleet.Core\OZFleet.Core.csproj" />

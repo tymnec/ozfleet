@@ -1,6 +1,6 @@
-@OZFleet.WebApi_HOZtAddress = http://localhOZt:5192
+@OZFleet.WebApi_HostAddress = http://localhost:5192
 
-GET {{OZFleet.WebApi_HOZtAddress}}/weatherforecast/
+GET {{OZFleet.WebApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LChj4Tynj/UqgzfnJSc+vDEzKythcw6EolYkzanWG0LI9aG5gXVgp7sVkvt+CMzvwJFrH4+kGDGjXh86jNbqNQ==",
+  "dgSpecHash": "qjB26jsnZiLi/Gzo/hpplxP0YzwyyCAzNKaH7yCe2MWmnFpdTgiOFgXwaDpx1sbLP2gByhtc1nJrAvQpCUTr2g==",
   "success": true,
   "projectFilePath": "/home/nikhil/Documents/GitHub/ozfleet/OZFleet.WebApi/OZFleet.WebApi.csproj",
   "expectedPackageFiles": [
-    "/home/nikhil/.nuget/packages/micrOZoft.aspnetcore.openapi/8.0.12/micrOZoft.aspnetcore.openapi.8.0.12.nupkg.sha512",
-    "/home/nikhil/.nuget/packages/micrOZoft.extensions.apidescription.server/6.0.5/micrOZoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/home/nikhil/.nuget/packages/micrOZoft.openapi/1.6.14/micrOZoft.openapi.1.6.14.nupkg.sha512",
+    "/home/nikhil/.nuget/packages/microsoft.aspnetcore.openapi/8.0.12/microsoft.aspnetcore.openapi.8.0.12.nupkg.sha512",
+    "/home/nikhil/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/nikhil/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/home/nikhil/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "/home/nikhil/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "/home/nikhil/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
