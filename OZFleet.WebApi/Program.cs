@@ -15,17 +15,26 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "OZFleet API", Version = "v1" });
 });
 
-// Register repository implementations as singletons (for in-memory demo)
+// Register existing repositories and services
 builder.Services.AddSingleton<IVehicleRepository, InMemoryVehicleRepository>();
 builder.Services.AddSingleton<IUserRepository, InMemoryUserRepository>();
-
-// Register application services
 builder.Services.AddTransient<VehicleService>();
 builder.Services.AddTransient<UserService>();
 
+// Register new repositories
+builder.Services.AddSingleton<ITripRepository, InMemoryTripRepository>();
+builder.Services.AddSingleton<IMaintenanceRepository, InMemoryMaintenanceRepository>();
+builder.Services.AddSingleton<IFuelRecordRepository, InMemoryFuelRecordRepository>();
+builder.Services.AddSingleton<IDriverRepository, InMemoryDriverRepository>();
+
+// Register new services
+builder.Services.AddTransient<TripService>();
+builder.Services.AddTransient<MaintenanceService>();
+builder.Services.AddTransient<FuelRecordService>();
+builder.Services.AddTransient<DriverService>();
+
 var app = builder.Build();
 
-// Enable Swagger in development
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
