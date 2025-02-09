@@ -15,7 +15,8 @@ OZFleet
 └── OZFleet.WebApi
     └── OZFleet.WebApi.csproj
 
-##Project Structure Details:
+##  Project Structure Details:
+
 To clarify the contents of each project (such as what each project consists of), I'll break down the typical project structure for each of your mentioned projects, based on Clean Architecture principles. Here’s an outline of what each project generally contains:
 
 ### 1. **OZFleet.Application**  
