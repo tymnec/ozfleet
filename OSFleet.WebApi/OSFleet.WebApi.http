@@ -1,0 +1,6 @@
+@OSFleet.WebApi_HostAddress = http://localhost:5192
+
+GET {{OSFleet.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
