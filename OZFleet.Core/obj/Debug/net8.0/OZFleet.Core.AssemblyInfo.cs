@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OZFleet.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82236fe0ac411278d8794f6d11e3914f5c883bba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fdcaa50d536ed951077fa57e379914d0c42eed0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OZFleet.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OZFleet.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
