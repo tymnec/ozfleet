@@ -482,3 +482,12 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+/OZFleet.Application/obj
+/OZFleet.Application/bin
+/OZFleet.Core/bin
+/OZFleet.Core/obj
+/OZFleet.WebApi/obj
+/OZFleet.WebApi/bin
+/OZFleet.Tests/obj
+/OZFleet.Tests/bin
