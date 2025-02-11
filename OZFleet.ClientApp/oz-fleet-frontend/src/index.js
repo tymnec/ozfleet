@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-import Login from "./Components/Authentication/Login";
-import Register from "./Components/Authentication/Register";
 import "bootstrap/dist/css/bootstrap.css";
+import AuthenticationPage from "./Components/AuthenticationPage";
+
+// import { UserContextProvider } from "./Components/Authentication/UserContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,8 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="login" element={<Login />} />
-        <Route path="register" element={<Register />} />
+        <Route path="authentication" element={<AuthenticationPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
